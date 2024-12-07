@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - E-Learning</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div id="profileLink">
+            <a href="profile.html">Profile</a>
+        </div>
+        <h1>Complete Your Order</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="course.html">Back to Course</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Order Summary</h2>
+            <p>Course: JavaScript for Beginners</p>
+            <p>Price: 3499/-</p>
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <button id="completeOrder">Complete Order</button>
+            <div id="orderMessage" style="display:none;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Learning Platform</p>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>

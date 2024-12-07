@@ -1,0 +1,65 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Space between left and right elements */
+    align-items: center;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px;
+}
+
+#profileLink {
+    text-align: left; /* Align profile link to the left */
+}
+
+#profileLink a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px; /* Add some space from the logo */
+}
+
+#profileLink a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
